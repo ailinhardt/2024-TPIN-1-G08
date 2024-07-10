@@ -54,7 +54,7 @@ async function enviarPalabra() {
     let palabraExistente = await palabrasGet();
     let palabra = getPalabra();
     let cantidadLetras = getCantidadLetras();
-    let definicion = GetDefinicion();
+    let definicion = getDefinicion();
     
     for(let i = 0; i< palabraExistente.length;i++){
         if( palabra == palabraExistente[i].palabra){
